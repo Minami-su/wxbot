@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##################################
 rm -f /tmp/.X0-lock
 
 /usr/bin/Xvfb :0 -screen 0 1280x960x24 -nolisten unix -ac +extension GLX +extension RENDER &
